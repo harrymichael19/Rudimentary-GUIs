@@ -14,7 +14,7 @@ def calculate():
     entry.delete(0,END) #remove value after entry
     
 root = Tk()
-message_label = Label(text = "Enter a temperature", font = ("Helvetica", 16))
+message_label = Label(text = "Enter a temperature", font = ("Helvetica", 16, "bold"))
 output_label = Label(font = ("Helvetica", 16))
 entry = Entry(font = ("Helvetica", 16), width = 4)
 calc_button = Button(text = "Ok", font = ("Helvetica" , 16), command = calculate)
